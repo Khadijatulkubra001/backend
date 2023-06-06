@@ -9,7 +9,7 @@ const Port = 9000
 
 app.use(bodyParser.json({extended : true}))
 app.use(bodyParser.urlencoded({extended: true}))
-app.use(cors({origin: ['https://projects.onrender.com']}))
+app.use(cors({origin: ['https://projects-kjep.onrender.com']}))
 app.use('/' , router)
 
 Connection()
